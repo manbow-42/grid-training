@@ -8,14 +8,23 @@ export const emotionStyles = {
   h1: css`
     text-align: center;
   `,
-  container: css`
+  ul: css`
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: repeat(7, 100px);
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 100px);
     justify-content: space-evenly;
     row-gap: 20px;
+    list-style: none;
   `,
-  div: css`
+  li: css`
     border: 1px solid;
+    text-align: center;
+  `,
+  a: css`
+    display: block;
+    height: 100%;
+    line-height: 100px;
+    color: white;
+    background-color: lightcoral;
   `
 }
