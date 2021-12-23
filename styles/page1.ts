@@ -15,9 +15,9 @@ export const emotionStyles = {
   `,
   ul: css`
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(3, 100px);
-    justify-content: space-evenly;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    column-gap: 20px;
     row-gap: 20px;
     list-style: none;
   `,
@@ -31,5 +31,16 @@ export const emotionStyles = {
     line-height: 100px;
     color: white;
     background-color: blueviolet;
+  `,
+  box1: css`
+    grid-column-start: 1;
+    grid-column-end: 4;
+  `,
+  box2: css`
+    grid-row-start: 2;
+    grid-row-end: 4;
+  `,
+  box6: css`
+    grid-column-start: 1;
   `
 }
