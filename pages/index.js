@@ -19,7 +19,7 @@ export default function Home() {
             <Link href="/gridPages/page1"><a className={emotionStyles.a}>No.1</a></Link>
           </li>
           <li className={emotionStyles.li}>
-            <Link href="/"><a className={emotionStyles.a}>No.2</a></Link>
+            <Link href="/gridPages/page2"><a className={emotionStyles.a}>No.2</a></Link>
           </li>
           <li className={emotionStyles.li}>
             <Link href="/"><a className={emotionStyles.a}>No.3</a></Link>
